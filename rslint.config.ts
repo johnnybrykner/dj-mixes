@@ -4,7 +4,7 @@ import {
   reactHooksPlugin,
   reactPlugin,
   ts,
-} from '@rslint/core';
+} from "@rslint/core";
 
 export default defineConfig([
   js.configs.recommended,
