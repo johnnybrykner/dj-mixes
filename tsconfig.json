@@ -1,17 +1,11 @@
 {
   "compilerOptions": {
-    "lib": [
-      "DOM",
-      "ES2020"
-    ],
+    "lib": ["DOM", "ES2020"],
     "jsx": "react-jsx",
     "target": "ES2020",
     "noEmit": true,
     "skipLibCheck": true,
-    "types": [
-      "@rsbuild/core/types",
-      "node"
-    ],
+    "types": ["@rsbuild/core/types", "node"],
     "useDefineForClassFields": true,
     /* modules */
     "moduleDetection": "force",
@@ -21,9 +15,8 @@
     "allowImportingTsExtensions": true,
     /* type checking */
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "strict": true
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }

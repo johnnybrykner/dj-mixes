@@ -1,0 +1,6 @@
+.upload {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  row-gap: 1rem;
+}

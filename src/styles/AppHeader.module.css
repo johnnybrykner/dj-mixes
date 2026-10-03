@@ -1,0 +1,9 @@
+.header {
+  .header__controls {
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 1rem;
+    align-items: flex-end;
+    margin: 1rem;
+  }
+}
