@@ -16,7 +16,8 @@
     /* type checking */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "strict": true
+    "strict": true,
+    "exactOptionalPropertyTypes": true
   },
   "include": ["src"]
 }
